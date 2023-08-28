@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Poppins;
+}
+
+.header {
+  font-weight: 500;
+}
+
+.header-logo {
+  font-weight: 600;
+}
+
+.header-item {
+  font-weight: 600;
+}
+.header-list-btn {
+  font-weight: 600;
+}
+.banner-tytle {
+  font-weight: 500;
+}
+.banner-text {
+  font-weight: 400;
+}
+.popular-btn {
+  font-weight: 600;
+}
+.banner-textarea {
+  font-weight: 400;
+}
+.banner-btn {
+  font-weight: 600;
+}
+.popular {
+  font-weight: 500;
+}
+.popular-list-subtytle {
+  font-weight: 400;
+}
+.popular-list-text {
+  font-weight: 400;
+}
+.popular-list-btn {
+  font-weight: 600;
+}
+
+.brands-tytle {
+  font-weight: 500;
+}
+
+.newcomer {
+  font-weight: 500;
+}
+.newcomer-item {
+  font-weight: 400;
+}
+.newcomer-list-tytle {
+  font-weight: 500;
+}
+.newcomer-list-btn {
+  font-weight: 600;
+}
+
+.testimonial {
+  font-weight: 400;
+}
+.testimonial-tytle {
+  font-weight: 500;
+}
+
+.join {
+  font-weight: 500;
+}
+.join-btn {
+  font-weight: 600;
+}
+
+.footer {
+  font-weight: 500;
+}
+.footer-logo {
+  font-weight: 600;
+}
+.footer-item-item-text {
+  font-weight: 400;
+}
