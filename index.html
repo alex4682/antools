@@ -20,50 +20,75 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
-      <a href="#" class="header-logo">antools</a>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#" class="nav-list-link">Home</a></li>
-          <li class="nav-item">
-            <a href="#" class="nav-list-link">Categories</a>
+    <header class="header conteiner">
+      <div class="header-wrap">
+        <img src="img/Group159.svg" alt="logo" />
+        <a href="#" class="header-logo">antools</a>
+      </div>
+      <div class="header-nav-wrap">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-list-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-list-link">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-list-link">My Collection</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-list-link">Blog</a></li>
+          </ul>
+        </nav>
+        <ul class="header-list">
+          <li class="header-item">
+            <a href="#" class="header-list-link">Login</a>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-list-link">My Collection</a>
+          <li class="header-item">
+            <button class="header-list-btn">Sign Up</button>
           </li>
-          <li class="nav-item"><a href="#" class="nav-list-link">Blog</a></li>
         </ul>
-      </nav>
-      <ul class="header-list">
-        <li class="header-item">
-          <a href="#" class="header-list-link">Login</a>
-        </li>
-        <li class="header-item">
-          <button class="header-list-btn">Sign Up</button>
-        </li>
-      </ul>
-      <h1 class="banner-tytle">
-        Awesome tools for<br />
-        Designer & Developer.
-      </h1>
-      <p class="banner-text">
-        Antool is a web collection of information on paid or free Design and
-        Development tools
-      </p>
-      <form class="banner-form">
-        <label>
-          <input
-            type="text"
-            name="text"
-            placeholder="find more than 430+ tools..."
-            class="banner-textarea"
-          />
-        </label>
-        <button type="submit" class="banner-btn">Search</button>
-      </form>
+      </div>
     </header>
     <main>
-      <section class="popular">
+      <section class="banner">
+        <div class="conteiner banner-wrap">
+          <h1 class="banner-tytle">
+            Awesome tools for<br />
+            Designer & Developer<span class="dot">.</span>
+          </h1>
+          <p class="banner-text">
+            Antool is a web collection of information on paid or free Design and
+            Development tools
+          </p>
+          <form class="banner-form">
+            <div class="search"></div>
+              <input
+                type="text"
+                name="text"
+                placeholder="find more than 430+ tools..."
+                class="banner-textarea"
+              />
+            <button type="submit" class="banner-btn">Search</button>
+          </form>
+          <div class="banner-img-wrap">
+            <img
+              src="img/bx_bxl-facebook.svg"
+              alt="facebook logo"
+              class="banner-logo"
+            />
+            <img
+              src="img/bx_bxl-instagram.svg"
+              alt="instagram-logo"
+              class="banner-logo"
+            />
+            <img
+              src="img/bx_bxl-twitter.svg"
+              alt="twiter-logo"
+              class="banner-logo"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="popular conteiner">
         <h2 class="popular-tytle">Most Popular Tools</h2>
         <p class="popular-text">
           Tools for the best Designers and Developers most popularly used in the
@@ -71,108 +96,192 @@
         </p>
         <ul class="popular-list">
           <li class="popular-item">
-            <h3 class="popular-list-tytle">Figma</h3>
-            <h4 class="popular-list-subtytle">Free</h4>
-            <p class="popular-list-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <button class="popular-list-btn">Visit</button>
+            <img
+              src="img/grommet-icons_figma.png"
+              alt="logo"
+              class="popular-img"
+            />
+            <div class="popular-item-wrap">
+              <h3 class="popular-list-tytle">Figma</h3>
+              <h4 class="popular-list-subtytle">Free</h4>
+              <p class="popular-list-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="popular-list-wrap">
+              <div class="like"></div>
+              <div class="folder"></div>
+              </div>
+              <button class="popular-list-btn">Visit</button>
+            </div>
           </li>
           <li class="popular-item">
+            <img src="img/logos_sketch.png" alt="logo" class="popular-img" />
+            <div class="popular-item-wrap">
             <h3 class="popular-list-tytle">Sketch</h3>
             <h4 class="popular-list-subtytle">Trial & Paid</h4>
             <p class="popular-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
+            <div class="popular-list-wrap">
+            <div class="like"></div>
+            <div class="folder"></div>
+            </div>
             <button class="popular-list-btn">Visit</button>
+            </div>
           </li>
           <li class="popular-item">
+            <img
+              src="img/logos_visual-studio-code.png"
+              alt="logo"
+              class="popular-img"
+            />
+            <div class="popular-item-wrap">
             <h3 class="popular-list-tytle">Visual Studio Code</h3>
             <h4 class="popular-list-subtytle">Free</h4>
             <p class="popular-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button class="popular-list-btn">Visit</button>
+            <div class="popular-list-wrap">
+            <div class="like"></div>
+            <div class="folder"></div>
+            </div>
+            <button class="popular-list-btn">Visit</button></div>
           </li>
           <li class="popular-item">
+            <img src="img/notion.png" alt="logo" class="popular-img" />
+            <div class="popular-item-wrap">
             <h3 class="popular-list-tytle">Notion</h3>
             <h4 class="popular-list-subtytle">Free & Paid</h4>
             <p class="popular-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button class="popular-list-btn">Visit</button>
+            <div class="popular-list-wrap">
+            <div class="like"></div>
+            <div class="folder"></div>
+            </div>
+            <button class="popular-list-btn">Visit</button></div>
           </li>
           <li class="popular-item">
+            <img
+              src="img/grommet-icons_slack.png"
+              alt="logo"
+              class="popular-img"
+            />
+            <div class="popular-item-wrap">
             <h3 class="popular-list-tytle">Slack</h3>
             <h4 class="popular-list-subtytle">Free & Paid</h4>
             <p class="popular-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
+            <div class="popular-list-wrap">
+            <div class="like"></div>
+            <div class="folder"></div>
+            </div>
             <button class="popular-list-btn">Visit</button>
+            </div>
           </li>
           <li class="popular-item">
+            <img
+              src="img/logos_invision-icon.png"
+              alt="logo"
+              class="popular-img"
+            />
+            <div class="popular-item-wrap">
             <h3 class="popular-list-tytle">Invision</h3>
             <h4 class="popular-list-subtytle">Free & Paid</h4>
             <p class="popular-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
+            <div class="popular-list-wrap">
+            <div class="like"></div>
+            <div class="folder"></div>
+            </div>
             <button class="popular-list-btn">Visit</button>
           </li>
         </ul>
         <button class="popular-btn">Load more</button>
+        </div>
       </section>
-      <section class="brands">
+      <section class="brands conteiner">
         <h4 class="brands-tytle">Trusted more than 150+ brand</h4>
         <ul class="brands-list">
-          <li class="brands-item"><a href="#">Microsoft</a></li>
-          <li class="brands-item"><a href="#">Google</a></li>
-          <li class="brands-item"><a href="#">slack</a></li>
-          <li class="brands-item"><a href="#">WordPress</a></li>
+          <li class="brands-item"><img src="img/logos_microsoft.png" alt="logo" class="brands-list-img"></li>
+          <li class="brands-item"><img src="img/logos_google.png" alt="logo" class="brands-list-img"></li>
+          <li class="brands-item"><img src="img/logos_slack.png" alt="logo" class="brands-list-img"></li>
+          <li class="brands-item"><img src="img/logos_wordpress.png" alt="logo" class="brands-list-img"></li>
         </ul>
       </section>
-      <section class="newcomer">
-        <h2 class="newcomer-tytle">Newcomer Tools</h2>
+      <section class="newcomer conteiner">
+        <div class="newcomer-wrap">
+          <h2 class="newcomer-tytle">Newcomer Tools</h2>
         <p class="newcomer-text">
           Wow! see the latest update of the most recommended tools from reliable
           designers and developers
         </p>
         <button class="newcomer-btn">Explore more</button>
+        </div>
+        <div class="necomer-list-wrap">
         <ul class="newcomer-list">
           <li class="newcomer-item">
-            <h3 class="newcomer-list-tytle">Zeplin</h3>
+            <div class="newcomer-list-wrap">
+            <img src="img/zeplin.svg" alt="logo" class="newcomer-img"> 
+            <h3 class="newcomer-list-tytle">Zeplin</h3></div>
             <h4 class="newcomer-list-subtytle">Free & Paid</h4>
             <p class="newcomer-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
+            <div class="newcomer-list-wrap-logo">
+             <div class="like"></div>
+             <div class="folder"></div>
+            </div>
             <button class="newcomer-list-btn">Visit</button>
           </li>
           <li class="newcomer-item">
-            <h3 class="newcomer-list-tytle">PHPStorm</h3>
+            <div class="newcomer-list-wrap">
+            <img src="img/jb_phpstorm.svg" alt="logo" class="newcomer-img"> 
+            <h3 class="newcomer-list-tytle">PHPStorm</h3></div>
             <h4 class="newcomer-list-subtytle">Free</h4>
             <p class="newcomer-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
+            <div class="newcomer-list-wrap-logo">
+             <div class="like"></div>
+             <div class="folder"></div>
+            </div>
             <button class="newcomer-list-btn">Visit</button>
           </li>
           <li class="newcomer-item">
-            <h3 class="newcomer-list-tytle">Toolbox</h3>
+            <div class="newcomer-list-wrap">
+            <img src="img/jb_toolbox_app.svg" alt="logo" class="newcomer-img"> 
+            <h3 class="newcomer-list-tytle">Toolbox</h3></div>
             <h4 class="newcomer-list-subtytle">Free</h4>
             <p class="newcomer-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
+            <div class="newcomer-list-wrap-logo">
+             <div class="like"></div>
+             <div class="folder"></div>
+            </div>
             <button class="newcomer-list-btn">Visit</button>
           </li>
           <li class="newcomer-item">
-            <h3 class="newcomer-list-tytle">Procreate</h3>
+            <div class="newcomer-list-wrap">
+            <img src="img/procreate.svg" alt="logo" class="newcomer-img"> 
+            <h3 class="newcomer-list-tytle">Procreate</h3></div>
             <h4 class="newcomer-list-subtytle">Paid</h4>
             <p class="newcomer-list-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
+            <div class="newcomer-list-wrap-logo">
+             <div class="like"></div>
+             <div class="folder"></div>
+            </div>
             <button class="newcomer-list-btn">Visit</button>
           </li>
         </ul>
+        </div>
       </section>
-      <section class="testimonial">
+      <section class="testimonial conteiner">
         <img
           src="img/david-suarez-4a1nNlrS5ZI-unsplash.png"
           alt="devid-suarez"
@@ -188,7 +297,7 @@
           Occaecat aute officia excepteur non laboris id qui ad.
         </p>
       </section>
-      <section class="join">
+      <section class="join conteiner">
         <h2 class="join-tytle">Become a contributor?</h2>
         <p class="join-text">
           Join us and get tips & tricks to become a great Designer and Developer
@@ -206,7 +315,7 @@
         </form>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer conteiner">
       <a href="#" class="footer-logo">antools</a>
       <ul class="footer-list">
         <li class="footer-item">
