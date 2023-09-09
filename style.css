@@ -170,6 +170,7 @@ body {
   width: 315px;
   height: 64px;
   border: none;
+  color: rgba(255, 255, 255, 0.38);
   background-color: #283036;
   border-top: 1.5px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1.5px solid rgba(255, 255, 255, 0.1);
@@ -290,7 +291,8 @@ body {
   height: 42px;
   border: none;
   align-self: flex-end;
-  margin-top: px;
+  position: relative;
+  bottom: 10px;
   margin-right: 10px;
 }
 .popular-list-wrap {
