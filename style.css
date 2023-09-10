@@ -256,7 +256,7 @@ body {
       rgba(255, 255, 255, 0.05),
       rgba(255, 255, 255, 0)
     ),
-    url(img/Ellipse194.png);
+    url(img/Ellipse194-min.png);
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -348,7 +348,7 @@ body {
       rgba(255, 255, 255, 0.05),
       rgba(255, 255, 255, 0)
     ),
-    url(img/Ellipse195.png);
+    url(img/Ellipse195-min.png);
   background-repeat: no-repeat;
   height: 253px;
   display: flex;
@@ -475,7 +475,7 @@ body {
       rgba(255, 255, 255, 0.05),
       rgba(255, 255, 255, 0)
     ),
-    url(img/Ellipse194.png);
+    url(img/Ellipse194-min.png);
   background-repeat: no-repeat;
   background-position: right top;
 }
