@@ -113,7 +113,7 @@ body {
   text-align: center;
 }
 .banner {
-  background-image: url(img/Illustration.png);
+  background-image: url(img/Illustration-min.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -312,7 +312,7 @@ body {
 }
 .like::before {
   content: "";
-  background-image: url(img/flat-white-icons_like.png);
+  background-image: url(img/flat-white-icons_like-min.png);
   width: 30px;
   height: 30px;
   background-repeat: no-repeat;
@@ -321,7 +321,7 @@ body {
 }
 .folder::before {
   content: "";
-  background-image: url(img/eva_folder-add-outline.png);
+  background-image: url(img/eva_folder-add-outline-min.png);
   width: 30px;
   height: 30px;
   background-repeat: no-repeat;
@@ -423,8 +423,18 @@ body {
   color: rgba(255, 165, 55, 0.55);
   font-size: 18px;
   position: relative;
-  left: 65px;
   bottom: 40px;
+  left: 97px;
+}
+.first-subtytle {
+  position: relative;
+  bottom: 21px;
+  left: 90px;
+}
+.fourth-subtytle {
+  position: relative;
+  bottom: 31px;
+  left: 91px;
 }
 .newcomer-list-text {
   color: rgba(255, 255, 255, 0.55);
@@ -486,6 +496,7 @@ body {
 .newcomer-list-wrap {
   display: flex;
   position: relative;
+  gap: 0 34px;
 }
 .testimonial {
   font-weight: 400;
