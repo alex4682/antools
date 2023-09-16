@@ -514,20 +514,6 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.testimonial::before {
-  content: "";
-  background-image: url(img/chevron-left-min.png);
-  width: 48px;
-  height: 48px;
-  display: inline-block;
-}
-.testimonial::after {
-  content: "";
-  background-image: url(img/chevron-left-1-min.png);
-  width: 48px;
-  height: 48px;
-  display: inline-block;
-}
 .lines::after {
   content: "";
   background-image: url(img/Group1433-min.png);
@@ -559,6 +545,18 @@ body {
   bottom: 120px;
   left: 120px;
 }
+.slider {
+  width: 1240px;
+  position: relative;
+  overflow: hidden;
+}
+.slider-line {
+  display: flex;
+  width: 3720px;
+  transition: all ease 1s;
+  position: relative;
+  gap: 250px;
+}
 .testimonial-tytle {
   font-weight: 500;
   color: rgba(255, 253, 253, 0.78);
@@ -576,10 +574,29 @@ body {
   font-size: 14px;
   line-height: 214.286%;
   letter-spacing: 0.21px;
-  margin-left: 100px;
-  margin-bottom: 160px;
+  position: relative;
+  top: 125px;
 }
 
+.slider-next,
+.slider-prev {
+  background: #1e252b;
+  border: none;
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.28);
+  transition: 0.6s ease;
+  position: relative;
+}
+.slider-next {
+  left: 50px;
+}
+.slider-prev {
+  right: 50px;
+}
+.slider-prev:hover,
+.slider-next:hover {
+  color: rgba(255, 110, 48, 1);
+}
 .join {
   font-weight: 500;
   display: flex;
