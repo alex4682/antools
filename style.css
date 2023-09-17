@@ -63,6 +63,14 @@ body {
   display: flex;
   gap: 0 170px;
 }
+.nav-item:nth-child(2) {
+  position: relative;
+  bottom: 3px;
+}
+.nav-item:hover .nav-list-link {
+  color: rgba(255, 253, 253, 0.78);
+  transition: 0.5s ease;
+}
 .header-logo {
   font-weight: 600;
   font-size: 22px;
@@ -86,11 +94,15 @@ body {
   height: 20px;
   display: inline-block;
   align-self: flex-end;
+  position: relative;
+  top: 6px;
 }
 .header-list {
   display: flex;
   gap: 70px;
   align-self: flex-start;
+  position: relative;
+  bottom: 10px;
 }
 .nav-list-link {
   color: rgba(255, 255, 255, 0.55);
@@ -99,6 +111,15 @@ body {
   font-weight: 600;
   display: flex;
   align-items: end;
+}
+.header-item:hover .header-list-btn {
+  color: rgba(253, 245, 255, 0.8);
+  background: rgba(255, 77, 0, 0.8);
+  transition: 0.5s ease;
+}
+.header-item:hover .header-list-link {
+  color: rgba(255, 255, 255, 0.95);
+  transition: 0.5s ease;
 }
 .header-list-link {
   color: rgba(255, 255, 255, 0.78);
@@ -111,6 +132,7 @@ body {
   background: #ff6e30;
   padding: 12px 28px;
   text-align: center;
+  border: none;
 }
 .banner {
   background-image: url(img/Illustration-min.png);
@@ -236,16 +258,20 @@ body {
 
 .popular-item:hover .popular-list-text {
   color: rgba(255, 255, 255, 0.78);
+  transition: 0.4s ease-in;
 }
 .popular-item:hover .popular-list-subtytle {
   color: #ffa537;
+  transition: 0.4s ease-in;
 }
 .popular-item:hover .popular-list-tytle {
   color: rgba(255, 255, 255, 0.9);
+  transition: 0.4s ease-in;
 }
 .popular-item:hover .popular-list-btn {
   background: #ff6e30;
   color: #fff;
+  transition: 0.4s ease-in;
 }
 .popular-item:hover {
   border-radius: 15px;
@@ -259,6 +285,7 @@ body {
     url(img/Ellipse194-min.png);
   background-repeat: no-repeat;
   background-position: right top;
+  transition: 0.5s ease-in-out;
 }
 .popular-list-tytle {
   color: rgba(255, 255, 255, 0.78);
@@ -309,6 +336,7 @@ body {
   height: 30px;
   background-repeat: no-repeat;
   display: inline-block;
+  transition: 1s ease;
 }
 .like::before {
   content: "";
@@ -429,12 +457,15 @@ body {
 .first-subtytle {
   position: relative;
   bottom: 21px;
-  left: 90px;
+  left: 98px;
 }
 .fourth-subtytle {
   position: relative;
   bottom: 31px;
   left: 91px;
+}
+.newcomer-list-text-first {
+  margin-top: 14px;
 }
 .newcomer-list-text {
   color: rgba(255, 255, 255, 0.55);
@@ -455,16 +486,20 @@ body {
 }
 .newcomer-item:hover .newcomer-list-text {
   color: rgba(255, 255, 255, 0.78);
+  transition: 0.4s ease;
 }
 .newcomer-item:hover .newcomer-list-subtytle {
   color: #ffa537;
+  transition: 0.4s ease;
 }
 .newcomer-item:hover .newcomer-list-tytle {
   color: rgba(255, 255, 255, 0.9);
+  transition: 0.4s ease;
 }
 .newcomer-item:hover .newcomer-list-btn {
   background: #ff6e30;
   color: #fff;
+  transition: 0.4s ease;
 }
 .newcomer-item:hover {
   border-radius: 15px;
@@ -478,6 +513,7 @@ body {
     url(img/Ellipse194-min.png);
   background-repeat: no-repeat;
   background-position: right top;
+  transition: 0.35s ease-in-out;
 }
 .newcomer-list-wrap-logo:hover .like::before {
   content: "";
@@ -486,6 +522,7 @@ body {
   height: 30px;
   background-repeat: no-repeat;
   display: inline-block;
+  transition: 1s ease;
 }
 .newcomer-list-wrap-logo {
   display: flex;
@@ -703,4 +740,8 @@ hr {
 }
 .footer-item-item {
   margin-top: 10px;
+}
+.footer-item-item:hover .footer-item-item-link {
+  color: rgba(255, 255, 255, 0.75);
+  transition: 0.8s ease;
 }
