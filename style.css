@@ -68,13 +68,17 @@ body {
   bottom: 3px;
 }
 .nav-item:hover .nav-list-link {
-  color: rgba(255, 253, 253, 0.78);
+  color: #ff6e30;
   transition: 0.5s ease;
+}
+.header-logo-img {
+  animation: fadeInDown 0.5s;
 }
 .header-logo {
   font-weight: 600;
   font-size: 22px;
   color: #fff;
+  animation: fadeInDown 0.5s;
 }
 .nav-list {
   display: flex;
@@ -112,14 +116,9 @@ body {
   display: flex;
   align-items: end;
 }
-.header-item:hover .header-list-btn {
-  color: rgba(253, 245, 255, 0.8);
-  background: rgba(255, 77, 0, 0.8);
-  transition: 0.5s ease;
-}
 .header-item:hover .header-list-link {
-  color: rgba(255, 255, 255, 0.95);
-  transition: 0.5s ease;
+  color: #ffa537;
+  transition: 0.7s ease;
 }
 .header-list-link {
   color: rgba(255, 255, 255, 0.78);
@@ -140,6 +139,7 @@ body {
   background-position: right;
   background-size: contain;
   margin-bottom: 210px;
+  animation: bounceIn 1s;
 }
 .banner-wrap {
   display: flex;
@@ -286,6 +286,7 @@ body {
   background-repeat: no-repeat;
   background-position: right top;
   transition: 0.5s ease-in-out;
+  animation: jello 0.9s;
 }
 .popular-list-tytle {
   color: rgba(255, 255, 255, 0.78);
@@ -355,6 +356,13 @@ body {
   background-repeat: no-repeat;
   display: inline-block;
   margin-top: 40px;
+}
+.popular-btn:hover {
+  background-color: #ff6e30;
+  border: #ffa537;
+  transition: ease-in 0.5s;
+  color: rgba(255, 255, 255, 0.9);
+  animation: pulse 1s;
 }
 .popular-btn {
   width: 184px;
@@ -514,6 +522,7 @@ body {
   background-repeat: no-repeat;
   background-position: right top;
   transition: 0.35s ease-in-out;
+  animation: jello 0.65s;
 }
 .newcomer-list-wrap-logo:hover .like::before {
   content: "";
@@ -742,6 +751,6 @@ hr {
   margin-top: 10px;
 }
 .footer-item-item:hover .footer-item-item-link {
-  color: rgba(255, 255, 255, 0.75);
+  color: #ff6e30;
   transition: 0.8s ease;
 }
